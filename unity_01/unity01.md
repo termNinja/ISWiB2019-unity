@@ -432,8 +432,10 @@ for (int i = 0; i < 10; i++)
 - Name should be prefixed with an underscore _
 - If a name is formed of multiple words, use camelcase notation
 
-## Live Coding
-- Let's implement a small example for a video game
+## Live coding - Classes - A small Gaming example
+\begin{center}
+    \theimage{./images/talkcode}
+\end{center}
 
 # OOP - Advanced concepts
 
@@ -442,6 +444,8 @@ for (int i = 0; i < 10; i++)
     - Encapsulation
     - Polymorphism
     - Inheritance
+
+# Encapsulation
 
 ## Encapsulation
 \begin{center}
@@ -464,7 +468,141 @@ for (int i = 0; i < 10; i++)
     - Showing a *public interface* to the user (exposed via `public`)
     - And hiding internal logic (hidden via `private`)
 
+# Inheritance
+
 ## Inheritance
+- Let's assume we need to create a class for both a `Player` and `Enemy`
+    - Both of them will have a position in our game world?
+    - Both of them will have health?
+- So, do we create two classes that both have the same things?
+- Or, maybe there's a better way?
+
+## Inheritance
+- Inheritance allows us to **extend** the functionality of a class
+- We say that class `B` **inherits** class `A`.
+- This means that `B` **is** also `A`.
+- But `A` is not `B`.
+- `B` is a *special* case of `A`
+- You confused?
+
+## Inheritance
+- Inheritance allows us to **extend** the functionality of a class
+- We say that class `Husky` **inherits** class `Dog`.
+- This means that `Husky` **is** also `Dog`.
+- But `Dog` is not `Husky` (not every dog is a Husky!)
+- `Husky` is a *special* case of `Dog`
+- Not confused anymore?
+
+\begin{center}
+    \includegraphics[scale=0.25]{./images/husky}
+\end{center}
+
+## Inheritance in C\#
+
+```c#
+class GameObject
+{
+    private Vec2 _position;
+
+    public GameObject(Vec2 position)
+    {
+        _position = position
+    }
+}
+```
+
+## Inheritance in C\#
+
+```c#
+class Player: GameObject
+{
+    public Player(Vec2 position) : base(position) { }
+}
+
+class Enemy: GameObject
+{
+    public Enemy(Vec2 position) : base(position) { }
+}
+```
+
+## Inheritance in C\#
+- Class can inherit only **one** class
+- Casting to parent class is often useful
+- `object1` and `object2` give out only the public interface of the class `GameObject`
+
+```c#
+    GameObject object1 = new Player(new Vec2());
+    GameObject object2 = new Enemy(new Vec2());
+```
+
+## Live coding - Inheritance - A small Gaming example
+\begin{center}
+    \theimage{./images/talkcode}
+\end{center}
+
+# Polymorphism
 
 ## Polymorphism
+- As we've seen, we can cast objects of `B` onto parent class `A`
+
+```c#
+    GameObject object1 = new Player(new Vec2());
+    GameObject object2 = new Enemy(new Vec2());
+```
+
+- This also allows a cool property - *hierarchical polymorphism*
+- That is, we can define a function in class `A` and *redefine* it in class `B`
+
+## Polymorphism
+
+```c#
+class GameObject
+{
+    private Vec2 _position;
+
+    public GameObject(Vec2 position)
+    {
+        _position = position
+    }
+
+    public void Move(Vec2 movementVector)
+    {
+        _position += movementVector;
+    }
+}
+```
+
+## Polymorphism
+
+```c#
+class Player: GameObject
+{
+    public Player(Vec2 position) : base(position) { }
+
+    public override void Move(Vec2 movementVector)
+    {
+        // Add our own custom logic
+        Console.WriteLn($"Player is moving by {movementVector}!");
+
+        // Invoke the parent class implementation
+        super.Move(movementVector);
+    }
+}
+```
+
+## Polymorphism
+
+```c#
+GameObject object = new Player(new Vec2());
+
+// Call the .Move method of the `Player` class
+object.Move(new Vec2(2f, 3f));
+
+// RESULT: Player is moving by (2.0, 3.0)!
+```
+
+## Live coding - Polymorphism - A small Gaming example
+\begin{center}
+    \theimage{./images/talkcode}
+\end{center}
 
