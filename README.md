@@ -11,3 +11,7 @@ Repository devoted to Unity workshop I held at ISWiB 2019.
     - [Rider](https://www.jetbrains.com/rider/) - full integrated development environment
     - [Visual Studio Code](https://code.visualstudio.com/) - lightweight but powerful editor
 - [Git](https://git-scm.com/)
+
+## Day 01
+- Please, fill out [this short form](https://docs.google.com/forms/d/e/1FAIpQLSdsI1G_KYshSMrAMRWQcgEJKF1kTY9BvlJhV7aT5QqgFuGJmg/viewform?usp=sf_link) to get started
+- Materials: [here](https://github.com/termNinja/ISWiB2019-unity/tree/master/unity_01)
