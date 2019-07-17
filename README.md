@@ -12,6 +12,15 @@ Repository devoted to Unity workshop I held at ISWiB 2019.
     - [Visual Studio Code](https://code.visualstudio.com/) - lightweight but powerful editor
 - [Git](https://git-scm.com/)
 
+## Daily feedback
+Please make sure to fill in the [following form](https://docs.google.com/forms/d/e/1FAIpQLScw7CB7orpa9Q0xX1btL9NHwNV-cTfXEf-HYFUfKlGOUnMgig/viewform?usp=sf_link) in order
+to give me feedback after each day of the course. Thank you!
+
 ## Day 01
+- Introduction to OOP and C#
 - Please, fill out [this short form](https://docs.google.com/forms/d/e/1FAIpQLSdsI1G_KYshSMrAMRWQcgEJKF1kTY9BvlJhV7aT5QqgFuGJmg/viewform?usp=sf_link) to get started
 - Materials: [here](https://github.com/termNinja/ISWiB2019-unity/tree/master/unity_01)
+
+## Day 02
+- Basics of Unity
+- Unity 2D programming
