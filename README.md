@@ -29,4 +29,5 @@ to give me feedback after each day of the course. Thank you!
 We will be using the following assets from the unity asset store:
 - [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126)
 - [Retro Noisy Explosion Sound Pack Lite](https://assetstore.unity.com/packages/audio/sound-fx/retro-noisy-explosion-sound-pack-lite-69305)
+- [2d Flat Explosion](https://assetstore.unity.com/packages/2d/textures-materials/2d-flat-explosion-66932)
 - Local assets (find them in directory `unity02`)
