@@ -31,3 +31,27 @@ We will be using the following assets from the unity asset store:
 - [Retro Noisy Explosion Sound Pack Lite](https://assetstore.unity.com/packages/audio/sound-fx/retro-noisy-explosion-sound-pack-lite-69305)
 - [2d Flat Explosion](https://assetstore.unity.com/packages/2d/textures-materials/2d-flat-explosion-66932)
 - Local assets (find them in directory `unity02`)
+
+## Day 03
+- More work on our space shooter game
+- Colliders, collisions, explosions, prefabs
+
+## Day 04
+- Building a first person forest horror game
+- Basics of 3D programming in Unity
+- Procedural generation of levels
+
+### Required assets
+- [First Person All-in-One](https://assetstore.unity.com/packages/tools/input-management/first-person-all-in-one-135316)
+- [Athmospheric Horror Music](https://assetstore.unity.com/packages/audio/music/atmospheric-horror-music-121337)
+- [LowPoly Trees and Rocks](https://assetstore.unity.com/packages/3d/vegetation/lowpoly-trees-and-rocks-88376)
+
+## Day 05
+- Back to our space shooter
+- Adding multiple enemies
+- Creating UI
+- Finishing up and building the game
+
+### Required assets
+- Same ones as in day 01
+- Local assets
