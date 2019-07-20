@@ -54,4 +54,5 @@ We will be using the following assets from the unity asset store:
 
 ### Required assets
 - Same ones as in day 01
+- [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126)
 - Local assets
