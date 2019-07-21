@@ -52,6 +52,9 @@ We will be using the following assets from the unity asset store:
 - Creating UI
 - Finishing up and building the game
 
+### Exercise
+- [template](https://drive.google.com/file/d/1HPLkWqSIXWJYf3hdU0Mr_pbUsUOi7z5d/view?usp=sharing)
+
 ### Required assets
 - Same ones as in day 01
 - [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126)
