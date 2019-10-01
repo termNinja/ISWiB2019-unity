@@ -61,7 +61,7 @@ We will be using the following assets from the unity asset store:
 - Local assets
 
 ## Space shooter demo
-[![ISWiB Space Shooter](https://img.youtube.com/vi/QdF5ckBGUt0/0.jpg)](https://www.youtube.com/watch?QdF5ckBGUt0 "ISWiB Space Shooter")
+[![ISWiB Space Shooter](https://img.youtube.com/vi/QdF5ckBGUt0/0.jpg)](https://www.youtube.com/watch?v=QdF5ckBGUt0&feature=youtu.be "ISWiB Space Shooter")
 
 Main menu song:
 Isidor Bobinec - Soldier of Fortune
