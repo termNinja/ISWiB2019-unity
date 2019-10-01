@@ -59,3 +59,12 @@ We will be using the following assets from the unity asset store:
 - Same ones as in day 01
 - [Text Mesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126)
 - Local assets
+
+## Space shooter demo
+[![ISWiB Space Shooter](https://img.youtube.com/vi/QdF5ckBGUt0/0.jpg)](https://www.youtube.com/watch?QdF5ckBGUt0 "ISWiB Space Shooter")
+
+Main menu song:
+Isidor Bobinec - Soldier of Fortune
+
+In game song:
+Isidor Bobinec - Touch the Sky
